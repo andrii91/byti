@@ -1402,10 +1402,11 @@ footer {
   }
   .old {
     td {
+      padding-top: 60px;
       text-decoration: line-through;
        color: #ccc;
       font-family: "Proxima Nova";
-      font-size: 14px;
+      font-size: 18px;
       font-weight: 700;
       &:first-child {
         text-decoration: none;
@@ -1416,7 +1417,7 @@ footer {
     td {
           color: #ff97da;
          font-family: "Bodoni 72 C";
-      font-size: 20px;
+      font-size: 25px;
       font-weight: 700;
 
     }
@@ -1438,10 +1439,11 @@ footer {
     }
     &:first-child {
       text-align: left;
-      color: #191919;
-      font-family: "Proxima Nova";
-      font-size: 21px;
-      font-weight: 700;
+    color: #191919;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
     }
   }
   tr {
@@ -1461,11 +1463,12 @@ footer {
 }
 
 .plans_info {
-  text-align: left;
+  text-align: center;
     font-family: "Bodoni 72 C";
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 700;
-  margin:  0 auto;
+  margin:  20px auto ;
+  max-width: 660px;
 }
 
 .mobile {
