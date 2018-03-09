@@ -144,6 +144,7 @@ line-height: 1.2;
   &.none {
     background: #ccc;
     box-shadow: none;
+    cursor: none;
     &:hover {
       transform: none;
       &:after, &:before {
