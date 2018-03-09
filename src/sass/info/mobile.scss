@@ -33,7 +33,8 @@
   .competitors {
     text-align: center;
   }
-  .head-title, .million-item h2 {
+  .head-title,
+  .million-item h2 {
     font-size: 48px;
     line-height: 1;
     br {
@@ -82,10 +83,12 @@
     -ms-flex-order: -1;
     order: -1;
   }
-  .brand:before, .million:before {
+  .brand:before,
+  .million:before {
     display: none;
   }
-  .personal_brand-item p, .million {
+  .personal_brand-item p,
+  .million {
     text-align: center;
   }
   .personal_brand-item .personal_brand-svg {
@@ -147,5 +150,29 @@
   }
   .plans-item .box .bottom {
     padding: 20px 10px;
+  }
+  .speaker-title {
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .speaker-name {
+    text-align: center;
+  }
+  .table-box {
+    overflow-x: scroll;
+    .table {
+      width: 480px;
+    }
+  }
+  .table td:first-child {
+    font-size: 12px;
+  }
+  .table th {
+    font-size: 18px;
+    text-align: center;
+  }
+  .table .order-btn {
+    font-size: 12px;
+    padding: 5px 10px;
   }
 }

@@ -2,7 +2,7 @@
 
 @media #{$tabletLandscape} {
     @import '../desktop';
-  .problem-item, .competitors-title, .question-item {
+  .problem-item, .competitors-title {
     text-align: left;
   }
   .question-svg {

@@ -14,7 +14,7 @@ $(document).ready(function() {
   return $('.nav').toggleClass("fixed", $(window).scrollTop() > 0);
 });
   
-  $('.nav-top a').click(function (e) {
+  $('.nav-top a, .scroll').click(function (e) {
     event.preventDefault();
     var id = $(this).attr('href'),
       top = $(id).offset().top;
@@ -68,10 +68,10 @@ $(document).ready(function() {
   }
   
   
-  $('.programs-item .top').click(function(){
+/*  $('.programs-item .top').click(function(){
     $(this).toggleClass('active');
     $(this).parent().find('.more').slideToggle(200);
-  });
+  });*/
   
   $('.mob-btn').click(function(){
     $('.nav .nav-top').slideToggle(200);
