@@ -1,0 +1,32 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+    @import '../desktop';
+  .problem-item, .competitors-title, .question-item {
+    text-align: left;
+  }
+  .question-svg {
+    margin-top: 0;
+  }
+  .brand:before, .million:before {
+    display: block;
+  }
+  .after_course-item {
+    text-align: left;
+  }
+  .after_course-img {
+    display: block;
+  }
+  .speaker-title, .speaker-name {
+    text-align: left;
+  }
+  .plans-item .box {
+    max-width: 315px;
+  }
+  .plans-item .box .bottom {
+    padding: 35px 20px;
+  }
+  .plans-item .box:nth-child(2) .bottom {
+    min-height: inherit;
+  }
+}

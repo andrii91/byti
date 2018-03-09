@@ -1,0 +1,151 @@
+& {
+  .line {
+    display: none;
+  }
+  .main,
+  header,
+  footer {
+    overflow: hidden;
+    img {
+      max-width: 100%;
+    }
+  }
+  .nav .nav-top {
+    text-align: center;
+    display: none;
+    li {
+      display: block;
+      margin-bottom: 20px;
+      a {
+        display: block;
+      }
+    }
+  }
+  .mob-btn {
+    display: block;
+    text-align: right;
+  }
+  .nav.fixed {
+    padding: 5px 0;
+  }
+  .head,
+  .problem,
+  .competitors {
+    text-align: center;
+  }
+  .head-title, .million-item h2 {
+    font-size: 48px;
+    line-height: 1;
+    br {
+      display: none;
+    }
+  }
+  .head-info {
+    margin-bottom: 20px;
+  }
+  .title {
+    font-size: 36px;
+    padding: 0;
+    text-align: center;
+    line-height: 1;
+    br {
+      display: none;
+    }
+  }
+  .bottom-info {
+    padding: 5px 10px;
+    text-align: center;
+    span {
+      text-align: center;
+    }
+  }
+  .problem,
+  .question {
+    padding: 45px 0;
+  }
+  .competitors-item p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .question-success {
+    margin-bottom: 75px;
+  }
+  .brand-item p {
+    text-align: center;
+  }
+  .order-btn {
+    font-size: 16px;
+    padding: 15px 25px 14px;
+    text-align: center;
+  }
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .brand:before, .million:before {
+    display: none;
+  }
+  .personal_brand-item p, .million {
+    text-align: center;
+  }
+  .personal_brand-item .personal_brand-svg {
+    margin-top: 0 !important;
+  }
+  .million-img img {
+    margin-right: 0;
+  }
+  .million {
+    padding-top: 45px;
+  }
+  .million-item h2 {
+    margin-bottom: 20px;
+  }
+  .how {
+    padding: 60px 0;
+  }
+  .how-title {
+    margin-bottom: 20px;
+  }
+  .how-item .how-svg {
+    margin-bottom: 10px;
+  }
+  .how-item {
+    margin-bottom: 30px;
+  }
+  .programs-item .top {
+    padding-right: 76px;
+    padding-bottom: 25px;
+  }
+  .programs-item {
+    margin-bottom: 20px;
+  }
+  .course_info-img img {
+    margin: 0;
+  }
+  .info-item .box {
+    min-height: inherit;
+  }
+  .info-item .box h4 {
+    min-height: inherit;
+    margin-bottom: 20px;
+  }
+  .after_course {
+    text-align: center;
+  }
+  .after_course-item .after_course-svg {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .after_course-item:last-child {
+    margin-bottom: 59px;
+  }
+  .after_course-img {
+    display: none;
+  }
+  .plans-item .box:nth-child(2) {
+    margin: 20px 0;
+  }
+  .plans-item .box .bottom {
+    padding: 20px 10px;
+  }
+}

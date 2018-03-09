@@ -1,0 +1,79 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  //    @import '../mobile';
+  & {
+    .line {
+      display: none;
+    }
+    .main,
+    header,
+    footer {
+      overflow: hidden;
+      img {
+        max-width: 100%;
+      }
+    }
+    .problem-item {
+      text-align: center;
+    }
+    .competitors-svg {
+      text-align: right;
+    }
+    .competitors-title {
+      text-align: center;
+    }
+    .question-item {
+      text-align: center;
+    }
+    .question-svg {
+      margin-top: 30px;
+    }
+    .brand:before,
+    .million:before {
+      display: none;
+    }
+    .million-img img {
+      margin-right: 0;
+    }
+    .million-item h2 {
+      font-size: 70px;
+    }
+    .course_info-img img {
+      margin-left: 0;
+    }
+    .after_course-item {
+      text-align: center;
+    }
+    .after_course-item .after_course-svg {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .after_course-img {
+      display: none;
+    }
+    .speaker-title, .speaker-name {
+      text-align: center;
+    }
+    .reviews-title {
+      br {
+        display: none;
+      }
+    }
+    .reviews-img {
+      text-align: center;
+    }
+    .plans-item .box:nth-child(2) {
+      margin: 20px 0;
+    }
+    .plans {
+      padding-bottom: 45px;
+    }
+    footer.head {
+      min-height: inherit;
+    }
+    .order-btn {
+      text-align: center;
+    }
+  }
+}
