@@ -11,7 +11,7 @@ body {
   @import 'MediaQueries/main';
   overflow-x: hidden;
 }
-
+ 
 .head {
   background: url('../images/head.png') no-repeat center;
       display: -ms-flexbox;
@@ -1306,7 +1306,6 @@ footer {
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-top: 79px;
   text-align: right;
   li {
     display: inline-block;
@@ -1473,4 +1472,16 @@ footer {
 
 .mobile {
   display: none;
+}
+
+.footer-tel {
+      color: #191919;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+  display: block;
+}
+
+.mt79 {
+  margin-top: 79px;
 }
